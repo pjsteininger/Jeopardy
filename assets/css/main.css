@@ -20,9 +20,9 @@
     color: white;
     background-color: darkblue;
     font-family: ITC-Korinna;
-    font-size: 0.4em;
+    font-size: 10px;
     text-transform: uppercase;
-    padding: 1%;
+    padding: 20px;
     position: absolute;
     text-shadow: 3px 3px 1px black;
     text-align: center;
