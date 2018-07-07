@@ -1,0 +1,41 @@
+@font-face {
+    font-family: ITC-Korinna;
+    src: url(../fonts/Korinna-Regular.otf);
+}
+#game-board {
+    margin: 2% 10% 0 10%;
+    width: 200px;
+}
+
+.category, .clue {
+    background-color: darkblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 3px 3px black;
+    border: 10px solid black;
+    text-align: center;
+    padding: 10px;
+}
+#current-clue {
+    display: none;
+    color: white;
+    background-color: darkblue;
+    font-family: ITC-Korinna;
+    font-size: 0.4em;
+    text-transform: uppercase;
+    padding: 1%;
+    position: absolute;
+    text-shadow: 3px 3px 1px black;
+    text-align: center;
+}
+.category {
+    vertical-align: middle;
+    word-wrap: break-word;
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.clue {
+    color: goldenrod;
+    font-size: 4em;
+    cursor: pointer;
+}
